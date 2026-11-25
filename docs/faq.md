@@ -6,6 +6,10 @@
 
 The [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/) is the public front door: it explains the plugin, shows screenshots and prices, and hosts the legal pages. It is static, so it stays online even when the license server is down. To get a key or log in you follow its buttons to the license site, which is the running server that handles accounts and keys.
 
+## Does it support the ETS2 Coaches DLC?
+
+Yes. During a coach job the Dashboard shows passenger satisfaction, which stop you are on, planned and actual departure/arrival times, boarding and alighting counts and expected income. If you load a save that was already mid-job, the game may not send the full stop details; in that case the plugin still detects the coach job from live telemetry and shows satisfaction. Starting a coach job after launching ETS2 gives the full details.
+
 ## Do I need to install another plugin first?
 
 No. The download already contains the open-source hry-core framework the plugin runs on. Install the files from the zip and you are done.
