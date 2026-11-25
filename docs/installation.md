@@ -1,5 +1,7 @@
 # Installation
 
+> **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
+
 TCD Co-Driver 0.1.0 — about two minutes.
 
 ## What you need

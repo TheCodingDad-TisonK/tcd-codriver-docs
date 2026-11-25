@@ -6,6 +6,16 @@ Official website: https://thecodingdad-tisonk.github.io/tcd-codriver/
 
 This repository contains **documentation only** — guides, changelog and the legal pages. It does not contain the plugin source, the license server, keys, or any account data. The plugin and its license service are distributed through the website above.
 
+## How the three pieces fit together
+
+| Piece | Address | Purpose |
+|---|---|---|
+| **Landing page** | https://thecodingdad-tisonk.github.io/tcd-codriver/ | The public front door: what the plugin is, features, price and legal pages. Static and always online. |
+| **License site** | https://unhistorical-subglobular-marhta.ngrok-free.dev | The running server: accounts, keys, email, license checks and payments. |
+| **These docs** | https://github.com/TheCodingDad-TisonK/tcd-codriver-docs | Guides, FAQ and changelog. No source code and no secrets. |
+
+People start at the landing page and click through to the license site to get a key. The plugin checks licenses with that server, and these docs explain how to use everything.
+
 ## Start here
 
 - [Installation](docs/installation.md) — install the plugin and activate your key

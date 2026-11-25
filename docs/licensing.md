@@ -1,5 +1,7 @@
 # Licensing and payments
 
+> **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
+
 ## Trial
 
 Create an account on the website and confirm your email. You get one free **14-day trial key**. The 14 days start the **first time you use the key in the plugin**, not when you sign up. A trial key works on one computer and must be activated within 60 days.

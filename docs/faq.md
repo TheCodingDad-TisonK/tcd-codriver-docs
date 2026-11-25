@@ -1,5 +1,11 @@
 # FAQ
 
+> **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
+
+## What is the website for?
+
+The [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/) is the public front door: it explains the plugin, shows screenshots and prices, and hosts the legal pages. It is static, so it stays online even when the license server is down. To get a key or log in you follow its buttons to the license site, which is the running server that handles accounts and keys.
+
 ## Do I need to install another plugin first?
 
 No. The download already contains the open-source hry-core framework the plugin runs on. Install the files from the zip and you are done.
