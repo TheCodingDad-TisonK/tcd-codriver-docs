@@ -1,0 +1,14 @@
+# This repository is documentation only. Never commit anything operational here.
+*.env
+settings.env
+*.pem
+*.key
+keys/
+data/
+outbox/
+*.zip
+*.dll
+*.exe
+*.sqlite
+build/
+dist/
