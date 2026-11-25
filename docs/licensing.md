@@ -8,9 +8,9 @@ Create an account on the website and confirm your email. You get one free **14-d
 
 ## Subscription
 
-After the trial it is **$5 per month**. Payments are handled by hand through PayPal:
+After the trial it is **$3 per month**. Payments are handled by hand through PayPal:
 
-1. Pay $5 to the PayPal.me link shown on your account page.
+1. Pay $3 to the PayPal.me link shown on your account page.
 2. Press **"I have paid"** on the account page and enter the PayPal transaction ID.
 3. The payment appears on the owner's admin page. Once it is checked in PayPal, the key is extended by 30 days and you receive an email.
 
