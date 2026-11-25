@@ -2,7 +2,7 @@
 
 > **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
 
-## 0.1.0, update 2 — 25 Nov 2026
+## 0.2.0 — 25 Nov 2026
 
 - **ETS2 Coaches DLC** — passenger satisfaction, stage and stop details, timetable, boarding/alighting counts and expected income on the Dashboard; a coach job loaded from a mid-job save is detected from live telemetry when the game does not send its config
 - **Dashboard** — instruments (AdBlue, brake temperature, air pressure, oil, water, battery), in-game clock, vehicle identity, derived G indicator and connected-trailer readouts
