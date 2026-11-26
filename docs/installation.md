@@ -2,7 +2,7 @@
 
 > **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
 
-TCD Co-Driver 0.3.0: about two minutes.
+TCD Co-Driver 0.4.0: about two minutes.
 
 ## What you need
 
@@ -19,7 +19,7 @@ TCD Co-Driver 0.3.0: about two minutes.
 
 ## Updating
 
-To update, close the game, extract the new zip and run `Install.bat` again. It replaces the plugin and `hry-core.dll`. Version 0.3.0 needs the `hry-core.dll` from its zip: the older one does not pass the game's coach job events on to the plugin. Your key, settings and logbook are kept.
+To update, close the game, extract the new zip and run `Install.bat` again. It replaces the plugin and `hry-core.dll`. The `hry-core.dll` in the zip is required (since 0.3.0 the older one does not pass the game's coach job events on to the plugin), so always run `Install.bat` again rather than copying only the plugin file. Your key, settings and logbook are kept, and older logbooks and settings files load as they are; the new options start at their defaults. If the window shows an "Update available" notice, a newer version is waiting on your account page.
 
 ## Windows warning
 
@@ -50,4 +50,4 @@ The plugin runs on the open-source hry-core framework, which is included in the 
 
 ## Uninstalling
 
-Run `Uninstall.bat` from the extracted folder. It removes only `tcd-codriver.dll`. `hry-core.dll` and `hry_assets` are left in place in case another plugin uses them; remove them yourself if nothing else does.
+Run `Uninstall.bat` from the extracted folder. It removes only `tcd-codriver.dll`. `hry-core.dll` and `hry_assets` are left in place in case another plugin uses them; remove them yourself if nothing else does. It asks before it deletes your own files (license, settings, logbook, trip routes and profiles in `%LOCALAPPDATA%\TcdCoDriver`). Trip cards you saved stay in `Documents\TCD Co-Driver`.

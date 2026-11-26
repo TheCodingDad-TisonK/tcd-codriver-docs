@@ -40,7 +40,27 @@ No. It does not add trucks, maps or cheats, and does not alter how the game play
 
 ## Does the coach send my driving data anywhere?
 
-No. Scores, settings and the logbook stay on your computer in `%LOCALAPPDATA%\TcdCoDriver`. The license check only sends your key and computer identifier to the license server.
+No. Scores, settings, routes and the logbook stay on your computer in `%LOCALAPPDATA%\TcdCoDriver`. The license check only sends your key and computer identifier to the license server.
+
+## What does the update notice send?
+
+It asks the license server which version is newest and sends only the plugin version and the game: no key, no computer identifier, no logbook data. Nothing is stored about the request (only a short-lived counter in the server's memory limits repeated requests). If a newer version is available a notice appears in the window. You can turn the check off in Settings, under Updates.
+
+## Can I move the parts of the HUD?
+
+Yes. In Settings choose **Arrange the HUD**, drag each part where you want it and use the sliders to resize or hide it. **Reset the layout** puts everything back. You can also save a whole setup as a named profile and switch between profiles. A profile never holds your fuel price or income goal.
+
+## What is the trip card?
+
+In the Logbook, **Share trip card** saves a small page of one trip (the route, the score and the money) in `Documents\TCD Co-Driver` and copies a short text to the clipboard, ready for chat. It is a file on your computer. Nothing is uploaded.
+
+## Why does an older delivery have no route map?
+
+Routes are recorded from version 0.4.0 on, and only the newest 150 are kept. A delivery from before that, or an older one, shows its report without a map.
+
+## What is Technique in the coach score?
+
+A fourth score for how you handle the truck: steering at speed, gears and engine braking, brake temperature, parking and reversing, and rough roads. It counts 15% of the overall score when there was enough driving to judge it. The limits are first estimates, like the other scores. See [Features](features.md#driving-coach) for what each part measures.
 
 ## The game asks about "advanced SDK features": should I allow it?
 

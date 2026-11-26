@@ -1,6 +1,6 @@
 # TCD Co-Driver: documentation
 
-TCD Co-Driver is a co-driver plugin for **Euro Truck Simulator 2** and **American Truck Simulator** on Windows. It draws a heads-up display inside the game and keeps a driving coach and a logbook of every delivery.
+TCD Co-Driver is a co-driver plugin for **Euro Truck Simulator 2** and **American Truck Simulator** on Windows. It draws a heads-up display inside the game, guides the trip with a live assistant, scores your driving with a coach, and keeps a logbook with a route map of every delivery.
 
 Official website: https://thecodingdad-tisonk.github.io/tcd-codriver/
 
@@ -19,10 +19,10 @@ People start at the landing page and click through to the license site to get a 
 ## Start here
 
 - [Installation](docs/installation.md): install the plugin and activate your key
-- [Features](docs/features.md): what the HUD, dashboard, coach, Coaches DLC support and logbook show
+- [Features](docs/features.md): what the HUD, trip assistant, dashboard, coach, Insights, Profile, Coaches DLC support and logbook show
 - [Licensing and payments](docs/licensing.md): trial, subscription, PayPal and offline use
 - [FAQ](docs/faq.md): common questions and problems
-- [Changelog](docs/changelog.md): what changed in 0.3.0
+- [Changelog](docs/changelog.md): what changed in 0.4.0
 - [Legal](legal/): terms of service, privacy policy and legal notice
 
 ## Support
