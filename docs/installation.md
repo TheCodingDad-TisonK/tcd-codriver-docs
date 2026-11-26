@@ -2,7 +2,7 @@
 
 > **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
 
-TCD Co-Driver 0.1.0 — about two minutes.
+TCD Co-Driver 0.3.0: about two minutes.
 
 ## What you need
 
@@ -17,6 +17,10 @@ TCD Co-Driver 0.1.0 — about two minutes.
 4. Start the game. The first time, the game asks once whether to allow the plugin to use "advanced SDK features". Choose **Yes**.
 5. In the game press **Delete**. The TCD Co-Driver window opens. Go to **License**, paste your key and press **Activate**.
 
+## Updating
+
+To update, close the game, extract the new zip and run `Install.bat` again. It replaces the plugin and `hry-core.dll`. Version 0.3.0 needs the `hry-core.dll` from its zip: the older one does not pass the game's coach job events on to the plugin. Your key, settings and logbook are kept.
+
 ## Windows warning
 
 Windows may show "Windows protected your PC" because the plugin is not digitally signed yet. If you downloaded the zip from your account page, choose **More info**, then **Run anyway**. To check that the download is genuine, compare its SHA-256 hash with the one shown on your account page:
@@ -27,7 +31,7 @@ Get-FileHash <the zip file>
 
 ## Manual install
 
-If `Install.bat` does not find your game, it asks for the game folder — the one that contains the folder `bin`. To install by hand, copy everything inside `files\bin\win_x64\plugins` into:
+If `Install.bat` does not find your game, it asks for the game folder: the one that contains the folder `bin`. To install by hand, copy everything inside `files\bin\win_x64\plugins` into:
 
 ```
 <game folder>\bin\win_x64\plugins

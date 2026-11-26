@@ -8,7 +8,11 @@ The [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/) is the p
 
 ## Does it support the ETS2 Coaches DLC?
 
-Yes. During a coach job the Dashboard shows passenger satisfaction, which stop you are on, planned and actual departure/arrival times, boarding and alighting counts and expected income. If you load a save that was already mid-job, the game may not send the full stop details; in that case the plugin still detects the coach job from live telemetry and shows satisfaction. Starting a coach job after launching ETS2 gives the full details.
+Yes. During a coach job the Dashboard shows passenger satisfaction with a chart of how it developed, which stop you are on, the timetable with planned and actual times and delays, a punctuality score, boarding and alighting counts and the expected income. The HUD shows the next stop, the passengers' rating and your on-time score instead of the speedometer. When the job ends it is saved in the Logbook as a Coach tour or a Bus line, with the rating, punctuality and passengers. These coach job features are new in 0.3.0 and are being tuned. If you load a save that was already mid-job, the game may not send the full stop details; in that case the plugin still detects the coach job from live telemetry and shows satisfaction. Starting a coach job after launching ETS2 gives the full details.
+
+## Why is there no speedometer on the HUD during a job?
+
+The truck and the coach already have a speedometer and turn signals in the cab. While you are on a delivery or a coach job the HUD shows what the cab does not: where you are going, the deadline or the timetable, how the cargo or the passengers are doing, and the fuel. The speed and the limit sign appear only when you are over the limit. With no job you get the classic speedometer HUD. You can switch each job HUD off in Settings.
 
 ## Do I need to install another plugin first?
 
@@ -38,7 +42,7 @@ No. It does not add trucks, maps or cheats, and does not alter how the game play
 
 No. Scores, settings and the logbook stay on your computer in `%LOCALAPPDATA%\TcdCoDriver`. The license check only sends your key and computer identifier to the license server.
 
-## The game asks about "advanced SDK features" — should I allow it?
+## The game asks about "advanced SDK features": should I allow it?
 
 Yes. Choose **Yes** once when the game asks, otherwise plugins cannot read telemetry.
 
