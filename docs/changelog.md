@@ -2,6 +2,18 @@
 
 > **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
 
+## 0.6.0 (Nov 2026)
+
+- **Every page redesigned**: a header with the key numbers on each page, gauges, charts, icons, switches, sliders and segmented buttons made for this window
+- **Home**: what you are doing right now, your week day by day, numbers with a twelve week trend line, shortcuts and a tip
+- **Dashboard**: the route between the two cities with your truck on it, lights and controls as lamps, a gauge for every instrument, the pedals and the average and top speed
+- **Coach**: where the time went, how you used the pedals and the engine, every tip on request, and the band you drive in marked on the speed chart
+- **Checks and Trucks**: checks grouped by where they are done, with filters and an OK / Defect / Skip choice on each check; Trucks with a condition ring, a fuel tank, six gauges and a card per trailer
+- **Logbook, Insights and Profile**: freight and coach job filters, net income and dates in the list, and when in the day and week you deliver; where the money goes as a ring; lifetime totals, the title ladder and twelve weeks of activity
+- **Settings and About**: Settings use the whole window, with a picture of the screen to place the HUD, live theme previews and restoring the defaults; About can copy your file paths and support details
+- **Community board**: switch it on in Settings to show your level, title, badges and a few totals under a name you choose. It is off until you turn it on, and turning it off removes you
+- Older logbooks and settings load as they are
+
 ## 0.5.0 (Nov 2026)
 
 - **Pre trip inspection**: a checklist that opens with every job, with a readiness score, a grade and ranked tips. With TM Real Walk installed it is a walkaround list for the outside of the truck or coach; without it, a driver seat list of what you can see from the cab or read from telemetry. TCD adds no walking of its own, so the two plugins do not compete for the camera, keys or the interact prompt
