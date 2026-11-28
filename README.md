@@ -22,7 +22,7 @@ People start at the landing page and click through to the license site to get a 
 - [Features](docs/features.md): what the HUD, trip assistant, dashboard, coach, Insights, Profile, Coaches DLC support and logbook show
 - [Licensing and payments](docs/licensing.md): trial, subscription, PayPal and offline use
 - [FAQ](docs/faq.md): common questions and problems
-- [Changelog](docs/changelog.md): what changed in 0.4.0
+- [Changelog](docs/changelog.md): what changed in 0.5.0
 - [Legal](legal/): terms of service, privacy policy and legal notice
 
 ## Support

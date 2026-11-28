@@ -2,6 +2,17 @@
 
 > **Where things live:** the public overview and prices are on the [landing page](https://thecodingdad-tisonk.github.io/tcd-codriver/), accounts and keys are on the license site linked there, and these guides are in [this repo](https://github.com/TheCodingDad-TisonK/tcd-codriver-docs).
 
+## 0.5.0 (Nov 2026)
+
+- **Pre trip inspection**: a checklist that opens with every job, with a readiness score, a grade and ranked tips. With TM Real Walk installed it is a walkaround list for the outside of the truck or coach; without it, a driver seat list of what you can see from the cab or read from telemetry. TCD adds no walking of its own, so the two plugins do not compete for the camera, keys or the interact prompt
+- **The checks**: walk around, tyres, lights, mirrors, fluids, warning lights, engine start, seat belt, brakes, fuel, documents, writing the trip down from start to end, the starting odometer, the tachograph, delivery papers and rest planning, plus truck items (coupling, hoses, landing legs, caps, load, seal) and coach items (passenger door, emergency exits, luggage, saloon, destination display, ticket machine, wheelchair access, timetable)
+- **Telemetry fills in what it can**: engine, trailer, fuel, existing damage, warning lights, air pressure, brake heat, low beam and wear. A reading never overwrites a decision you made yourself
+- **Checks tab and HUD prompt**: the readiness card, every check with OK / Defect / Skip / Reset, and a short prompt while checks are open. The HUD prompt can be turned off with `inspection=` in settings.ini
+- **On foot with Real Walk**: F6 opens a keyboard only checklist that needs no mouse or overlay; F5 marks OK, F4 marks a defect and PageUp/PageDown move the highlight. All five keys can be changed on the Key binds page. In the cab the Checks tab also opens with Delete as usual
+- **Trucks tab rebuilt**: one overall condition score with the most worn part called out, a warnings panel with plain-English advice, a fuel card with a tank bar, range, average use and cost to fill, instrument tiles that turn amber or red on a warning or hot brakes, trailer condition bars, and the pre trip state at the top
+- **The coach and the logbook**: inspection tips join the driving tips, a defect caps the safety score, and readiness and the defect count are saved with each delivery. Older logbooks and settings still load
+- **Defect ledger**: faults are kept between jobs in `inspection.tsv`, and anything flagged on three of the last ten jobs is shown as a repeating fault at the top of the Checks tab
+
 ## 0.4.0 (Nov 2026)
 
 - **Route map and replay**: every trip keeps its route (the newest 150 trips are kept). The logbook draws it and marks the fines, tolls, ferries, hard braking and cargo damage on it, with charts of the speed and the fuel along the way. Older deliveries have no route, and the logbook says so
